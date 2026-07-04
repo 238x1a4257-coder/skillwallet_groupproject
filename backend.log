@@ -1,0 +1,60 @@
+Loading weights:   0%|          | 0/104 [00:00<?, ?it/s]Loading weights: 100%|##########| 104/104 [00:00<00:00, 2786.24it/s]
+[transformers] Failed to determine 'entailment' label id from the label2id mapping in the model config. Setting to -1. Define a descriptive label2id mapping in the model config to ensure correct outputs.
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|##########| 148/148 [00:00<00:00, 2226.38it/s]
+INFO:     Started server process [3764]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:59182 - "POST /api/fact-check HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59196 - "GET /api/history HTTP/1.1" 200 OK
+[transformers] Passing `generation_config` together with generation-related arguments=({'top_k', 'num_return_sequences', 'max_length', 'temperature', 'do_sample', 'pad_token_id'}) is deprecated and will be removed in future versions. Please pass either a `generation_config` object OR all generation parameters explicitly, but not both.
+[transformers] Both `max_new_tokens` (=256) and `max_length`(=80) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer GPT2Tokenizer. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+INFO:     127.0.0.1:59197 - "POST /api/generate-conversation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56112 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56132 - "POST /api/feedback HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56135 - "GET /api/history HTTP/1.1" 200 OK
+[transformers] Both `max_new_tokens` (=256) and `max_length`(=80) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+INFO:     127.0.0.1:56134 - "POST /api/fact-check HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56133 - "POST /api/generate-conversation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61353 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61354 - "GET /api/feedback-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59505 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49994 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59735 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54151 - "GET / HTTP/1.1" 200 OK
+[transformers] Both `max_new_tokens` (=256) and `max_length`(=80) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+INFO:     127.0.0.1:54152 - "POST /api/generate-conversation HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54164 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54168 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54169 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54170 - "POST /api/fact-check HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54178 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54179 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54180 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54181 - "GET /api/feedback-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56908 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51215 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59641 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49684 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64789 - "GET /api/gemini/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54781 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54783 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54784 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54785 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54786 - "GET /api/feedback-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54787 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54788 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54789 - "GET /api/gemini/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55129 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59397 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59398 - "GET /api/gemini/status HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59401 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59404 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59405 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59406 - "POST /api/fact-check HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59408 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59409 - "GET /api/history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59410 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59411 - "GET /api/feedback-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59412 - "GET / HTTP/1.1" 200 OK

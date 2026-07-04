@@ -1,0 +1,37 @@
+[
+  {
+    "suggestion": "test conversation starter",
+    "action": "like",
+    "timestamp": "2026-07-03T09:51:24.614284"
+  },
+  {
+    "suggestion": "I am attending a networking event about sustainability, cybersecurity, education. My interests include AI ethics. Here are three conversation starters I could use:",
+    "action": "like",
+    "timestamp": "2026-07-04T12:37:29.589129+00:00"
+  },
+  {
+    "suggestion": "How can the government address climate change?",
+    "action": "like",
+    "timestamp": "2026-07-04T12:37:37.151324+00:00"
+  },
+  {
+    "suggestion": "What is the most important role of the US government in addressing climate change?",
+    "action": "like",
+    "timestamp": "2026-07-04T12:37:39.110562+00:00"
+  },
+  {
+    "suggestion": "I am attending a networking event about sustainability, cybersecurity, data science. My interests include Climate change. Here are three conversation starters I could use:",
+    "action": "dislike",
+    "timestamp": "2026-07-04T12:47:00.146784+00:00"
+  },
+  {
+    "suggestion": "You want to talk about the use of renewable energy.",
+    "action": "dislike",
+    "timestamp": "2026-07-04T12:47:07.580319+00:00"
+  },
+  {
+    "suggestion": "As the world's largest economy, we need to be able to generate power at full capacity \u2013 which is the best time for the world's most productive cities. That means using renewable energy. That means using renewable energy that reduces CO2 emissions and minimizes energy use. That means reducing emissions of pollution, climate change and other greenhouse gases.",
+    "action": "like",
+    "timestamp": "2026-07-04T12:47:10.345756+00:00"
+  }
+]
